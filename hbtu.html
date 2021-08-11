@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBTU.AC.IN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    #qaz {
+        display: block;
+        margin: -20px -20px 0px -20px;
+        height: max-content;
+        background: linear-gradient(to right, #ffcc66 0%, #ff99cc 100%)
+    }
+
+    #qwe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #qqq img {
+        clip-path: polygon(0% 1%, 0% 54%, 9% 6%, 15% 68%, 20% 75%, 27% 81%, 40% 87%, 70% 90%, 35% 92%, 60% 87%, 80% 78%, 70% 83%, 75% 79%, 87% 66%, 92% 54%, 100% 1%);
+        height: 200px;
+        width: auto;
+        padding: 30px
+    }
+
+    #sss {
+        font-family: Bebas Neue;
+        font-size: 80px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+        letter-spacing: 2px;
+    }
+
+    #qsc {
+        height: 150px;
+        background-color: black;
+
+
+
+        /* clip-path: polygon(7% 20%, 100% 0%, 75% 100%, 0% 100%); */
+        ;
+    }
+
+    ul {
+        height: 80px;
+
+
+        list-style: none;
+    }
+
+    li {
+
+        float: left;
+
+    }
+
+    li a {
+        display: block;
+        padding: 18px 16px;
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: gray;
+    }
+
+    #gr {
+        /* background-color:rgba(10, 153, 146, 0.979); */
+        padding: 10px;
+        margin: 0px -10px 0px -10px;
+    }
+
+    #gr11 {
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+
+    #gr22 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 10px;
+        grid-gap: 10px;
+    }
+
+
+    .gridsa,
+    .gridla {
+        border: 1px black solid;
+        background-color: rgb(245, 162, 9);
+        grid-row-gap: 10px;
+        border-radius: 10px;
+        height: 100px;
+        text-align: center;
+        padding-top: 30px;
+        box-shadow: 2px 2px 5px black;
+        z-index: 20px;
+
+    }
+
+    .gridla {
+        font-size: 30px;
+    }
+
+    #ltt{
+        display: flex;
+        flex-direction: row;
+    }
+    .gridsa {
+        font-size: 30px;
+    }
+    .sa{
+        padding: 0px 10px 0px 10px;
+    }
+
+    #bnm {
+        display: grid;
+        grid-template-columns: 0.3fr 1.2fr;
+        grid-column-gap: 20px;
+    }
+
+    #tyu,
+    #ghj {
+        border: 1px solid black;
+    }
+
+    #tyu {
+        height: max-content;
+        grid-row-start: 1;
+        grid-row-end: 8;
+    }
+    
+    #ghj {
+        margin-left:50px;
+        height: 50px;
+        width:1200px;
+    }
+    
+    #ghj img {
+        display:block;
+        
+        
+        height: 50px;
+        width:1200px;
+        
+    }
+    
+    .jhg {
+        margin-left:0px;
+        background-color: blanchedalmond;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+        font-weight: 600;
+
+
+    }
+
+    span {
+        animation: blink 1s infinite;
+    }
+
+    #ff {
+        height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        padding-top:10px;
+        background: linear-gradient(to bottom, #33ccff 0%, #00cc66 100%)
+    }
+
+    #kll,
+    #iop,
+    #mnn {
+        border: 1px solid black;
+        grid-row-start: 8;
+        grid-row-end: 10;
+        height: max-content;
+        box-shadow: -1px 2px 2px 2px gray;
+    }
+
+    #opp {
+        display: grid;
+        grid-template-columns: 0.7fr 1fr 0.7fr;
+        padding-top: 20px;
+        grid-column-gap: 20px;
+    }
+
+    #header11 {
+        font-size: 25px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-weight: 500;
+        background-color: steelblue;
+        border-bottom: 1px solid black;
+       
+    }
+
+    .text11 {
+        text-align: justify;
+        font-size: 20px;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+
+    .text11 img {
+        float: left;
+        height: 50px;
+        padding-right: 10px;
+    }
+
+    .text33 img {
+        float: left;
+        height: 35px;
+        /* padding-right: 5px; */
+    }
+
+    .text33 {
+        text-align: center;
+        font-size: 25px;
+        color: red;
+        font-weight: 500;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        font-family: Fjalla One;
+
+    }
+
+    #pic2 {
+        height: 200px;
+        padding: 0px;
+    }
+
+    #pic2 img {
+        display: block;
+        padding: 0px;
+        height: 200px;
+        width: 550px;
+    }
+
+    #iij {
+        display: grid;
+        grid-template-columns: repeat(10, 150px);
+        padding: 20px;
+        margin-top: 20px;
+        grid-column-gap: 8px;
+    }
+
+    .eee {
+        height: 200px;
+        border: 1px solid black;
+        /* border-radius: 10px; */
+        text-align: center;
+        font-size: 30px;
+
+        font-weight: 800;
+    }
+
+    .eee img {
+        display: block;
+        height: 130px;
+        width: 160px;
+        padding-bottom: 10px;
+
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+    footer{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #f1{
+        background-color: rgb(75, 72, 72);
+        color: white;
+        width:800px;
+        height: 70px;
+        position: relative;
+        bottom: 20px;
+        clip-path: polygon(0% 0%, 90% 0, 96.5% 68%, 100% 100%, 0% 100%);
+
+
+
+        
+    }
+    #f1 li{
+        padding:20px;
+
+    }
+    #f2{
+        height: 250px;
+        margin:-10px;
+        margin-top: 10px;
+        
+        background-color:rgb(39, 190, 190)   ;
+    }
+    #f3{
+        padding: 20px;
+        padding-top: 50px;
+    }
+        
+    #oo9{
+        border:1px solid black;
+        height: 600px;
+        margin:10px;
+    }
+    .mySlides {display:none;}
+    
+
+.gridla {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #f1f1f1;
+ width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.gridla:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .gridla {background-color: #3e8e41;} */
+
+    @keyframes blink {
+
+        0% {
+            opacity: 100%
+        }
+
+
+
+        50% {
+            opacity: 50%;
+        }
+
+
+
+        100% {
+            opacity: 0%;
+
+        }
+
+    }
+</style>
+
+<body>
+    <div class="main" id="qaz">
+        <div id="qwe">
+            <div id="qqq"> <img
+                    src="https://upload.wikimedia.org/wikipedia/en/2/20/Harcourt_Butler_Technical_University_Logo_SSH.png"
+                    alt="Not Available">
+            </div>
+            <div id="sss">Harcourt Butler Technical University, Kanpur</div>
+            
+        </div>
+
+        <div id="qsc">
+            <ul>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">About us</a></li>
+                    <li><a href="#contact">Organisation Setup</a></li>
+                    <!-- <li><a href="#contact">Research</a></li> -->
+                    <li><a href="#contact">Schools</a></li>
+                    <li><a href="#contact">Academics</a></li>
+                    <li><a href="#contact">Cources</a></li>
+                    <li><a href="#contact">Central Facilities </a></li>
+                    <li><a href="#contact">Alumni </a></li>
+                    <li><a href="#contact">Controller Of Examination </a></li>
+                    <li><a href="#contact">Admissions</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+                </ul>
+        </div>
+    </div>
+    <div id="gr">
+        <div id="gr11">
+            <div class="gridla">HBTU ERP</div>
+            <!-- <div class="gridla" id="ltt"> -->
+               <!-- <div class="girdla sa"> Online Application <br> (for Degree Certificate)</div> -->
+               <!-- <div class="girdla sa"> -->
+            <!-- Online Application <br>(for Migration Certificate)</div> -->
+            <!-- </div> -->
+
+            <!-- <div class="gridla">Online Application <br> (for Inspection of Answer Books)</div> -->
+            <div class="gridla">
+                Online Application
+                <div class="dropdown-content">
+                  <a href="#">  Degree Certificate</a>
+                  <a href="#"> Migration Certificate</a>
+                  <a href="#"> Inspection of Answer Books</a>
+                </div>
+              </div>
+              <div class="gridla"></div>
+              <div class="gridla"></div>
+        </div>
+          <!-- <div class="gridla" id="ltt"> -->
+               <!-- <div class="girdla sa"> Online Application <br> (for Degree Certificate)</div> -->
+               <!-- <div class="girdla sa"> -->
+            <!-- Online Application <br>(for Migration Certificate)</div> -->
+            <!-- </div> -->
+
+            <!-- <div class="gridla">Online Application <br> (for Inspection of Answer Books)</div> -->
+        <div id="gr22">
+            <div class="gridsa">Research</div>
+            <div class="gridsa">Placement </div>
+            <div class="gridsa">TEQIP-III</div>
+            <div class="gridsa">Online Grievaance Portal</div>
+            <div class="gridsa">HBTU Newsletter</div>
+            <div class="gridsa">Online Lectures</div>
+
+        </div>
+    </div>
+
+    <div class="oo9" id="oo9">
+        <img class="mySlides" src="https://hbtu.ac.in/wp-content/uploads/2021/06/yogaday-1400x500.jpg" style="width:100%; height:100%">
+        <img class="mySlides" src="https://hbtu.ac.in/wp-content/uploads/2021/06/free_vaccine.jpg" style="width:100%; height:100%">
+        <img class="mySlides" src="https://hbtu.ac.in/wp-content/uploads/2021/01/slider-1.jpg" style="width:100%; height:100%">
+        
+      
+        
+    </div>
+    <div class="bnm" id="bnm">
+        <div class="tyu" id="tyu">
+            <div class="dd" id="ff">Home</div>
+            <div class="dd" id="ff">New Education policy FAQ</div>
+            <div class="dd" id="ff" style="font-size: 23px;"> Universities acts statues and ordinaces</div>
+            <div class="dd" id="ff">Education verification</div>
+            <div class="dd" id="ff">About University</div>
+            <div class="dd" id="ff">Chancellor</div>
+            <div class="dd" id="ff">HRD Minister</div>
+            <div class="dd" id="ff">List of Vice Chancellor
+            </div>
+            <div class="dd" id="ff">Hall of frame</div>
+            <div class="dd" id="ff">History</div>
+            <div class="dd" id="ff">Management Function</div>
+            <div class="dd" id="ff">Power and duties</div>
+            <div class="dd" id="ff">Mission </div>
+            <div class="dd" id="ff">Work Culture</div>
+            <div class="dd" id="ff">NIRF</div>
+            <div class="dd" id="ff">E-cell</div>
+            <div class="dd" id="ff">Alumni-Association</div>
+            <div class="dd" id="ff">Academic Calendar</div>
+            <div class="dd" id="ff">Syllabus</div>
+            <div class="dd" id="ff">Gallery </div>
+        </div>
+       
+        <div class="ghj" id="ghj"><img src="http://www.kanpuruniversity.org/images/banner-csjmu.jpg" alt=""></div>
+        <div class="ghj jhg" id="ghj"> <span> Admission 2021-2022
+            </span>
+        </div>
+        <div class="ghj jhg" id="ghj"> <span> Centenary Year : 1921-2021
+            </span></div>
+           
+        <div class="opp" id="opp">
+            <div class="kll" id="kll">
+                <div class="header11" id="header11">
+
+                    News & Events
+                </div>
+                <div class="text11"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Dept. of Electrical Engg. is organizing one week Online FDP on Intelligent Control and
+                    Its Application, 16-20 August, 2021.
+                </div>
+                <div class="text11">Online Student Grievance Portal</div>
+                <div class="text11">NIRF RANKING 2020 : HBTU RANK - 166</div>
+                <div class="text11">NIRF DATA 2021</div>
+                <div class="text11">User ID Activation Process Through Jio.com.</div>
+                <div class="text11">Procedure to activate and access Reliance 1GB data for HBTU Students.</div>
+                <div class="text11">HBTU VC Prof Samsher during his meeting with the President invited him to visit the
+                    varsity</div>
+
+            </div>
+            <div class="iop" id="iop">
+                <div class="text33" id="pic2"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jZ-W1Z1jdp8dNWn-65GXeM-9Q7URYBdG4wY3iftz0OBjCuQlEN7O_4UjirTNsPyN0eg&usqp=CAU  "
+                        alt=""></div>
+                <div class="text33"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Complaint regarding ragging</div>
+                <div class="text33">Grievance portal for College/Faculty/Student</div>
+                <div class="text33">Information Brochure</div>
+                <div class="text33">University Circular/Notification.</div>
+                <div class="text33">Academic Circular for Students.</div>
+                <div class="text33">Exam Circular for Student/Faculty</div>
+                <div class="text33">Events at HBTU</div>
+                <div class="text33">HBTU in Media</div>
+                <div class="text33">Minutes Of Meeting </div>
+                <div class="text33">Conference & FDP</div>
+
+                <div class="text33"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Covid-19 Initiatives & Vaccination Appeal</div>
+                <div class="text33">NEP-2020</div>
+                <div class="text33">JOBS@HBTU</div>
+            </div>
+            <div class="mnn" id="mnn">
+                <div class="header11" id="header11">
+
+                    Circulars & Announcements
+                </div>
+                <div class="text11">
+                    <img src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Tentative result of MCA I & MCA IV Semester 2020-21
+                </div>
+                <div class="text11">
+                    <img src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg" alt="">
+                    Notice & Schedule for OFF LINE (Odd) Sem Re-Examination, session 2020-21, 3rd year,5th Sem
+                    B.Tech(Engg. & Technology)
+                </div>
+                <div class="text11"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">IMPORTANT NOTICE FOR MARKSHEET AND DEGREE CERTIFICATE </div>
+                <div class="text11"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">IMPORTANT INSTRUCTIONS FOR CHARACTER AND MIGRATION CERTIFICATE. </div>
+                <div class="text11"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Revised Academic calendar 2020-21 Even/Odd Semester (First year to Final Year)</div>
+                <div class="text11"> <img
+                        src="https://www.logolynx.com/images/logolynx/eb/eb6f4aa0ab13cfd5719e7fbd1b4838e2.jpeg"
+                        alt="">Fill Google Form for Degree certificate.</div>
+                <div class="text11">Important Notice for Noduse and Degree Certificate</div>
+                <div class="text11">IMPORTANT INSTRUCTION FOR RECEIVING OF DEGREE & MARKSHEET</div>
+                <div class="text11">IMPORTANT INSTRUCTION FOR EDUCATION VERIFICATION</div>
+                <div class="text11">IMPORTANT INSTRUCTION FOR TRANSCRIPT OF PASSOUT STUDENT</div>
+                <div class="text11">IMPORTANT INSTRUCTIONS FOR ALL TYPES CERTIFICATE FOR ADMITTED STUDENTS</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="iij" id="iij">
+        <div class="eee" style="background-color:lightslategrey ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq516Nvsr5jw77blCGZgdtMBcKsGjIB7fy9gXFiFl8M3JZaYGNw3Q3hP8TcoKXTooZlow&usqp=CAU"
+                alt="">
+            Gallery
+        </div>
+        <div class="eee" style="background-color:indianred">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6vDyQfPRqAgybxVRXIQGhpYBA0yqq9SBLsO_OYPpOEY2DPmrXfJciolkZKZaHtMqiOig&usqp=CAU"
+                alt="">
+            Download forms
+        </div>
+        <div class="eee" style="background-color:pink;"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0OUuhUVFGcYG714wbgjMqTGocPkWlg7pbWFDSQ0g-GmhciKck89tXt5zTZFMLN9N21Y&usqp=CAU"
+                alt=""> Result</div>
+               
+        <div class="eee" style="background-color:coral;"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvOxY4Y8tDx65-o4cnqEpzB9cUeDZsPUKB-rEvfVh5hO_pc6TsqHrJIo6FqOwv2nWbNFQ&usqp=CAU"
+                alt=""> Tender</div>
+        <div class="eee" style="background-color:lightslategrey;"><img
+                src="https://thumbs.dreamstime.com/b/three-persons-partner-meeting-business-concept-teamwork-connection-three-people-logo-illustration-143280904.jpg"
+                alt=""> RTI</div>
+                <div class="eee" style="background-color:cadetblue;"> <img
+                    src="https://i.pinimg.com/474x/09/59/7f/09597f90145f28a708b978dfc83b43e1.jpg" alt=""> Webmail</div>
+        <div class="eee" style="background-color:indianred;"><img
+                src="https://i.pinimg.com/736x/ac/57/3b/ac573b439cde3dec8ca1c6739ae7f628.jpg" alt=""> Facebook</div>
+        <div class="eee" style="background-color:pink"> <img
+                src="http://static.dezeen.com/uploads/2012/06/dezeen_twitter-bird.gif" alt=""> Twitter</div>
+        <div class="eee" style="background-color:cadetblue"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUx7eyk-cWrLesoHDIZZ7LjzvRHONzro6oMD8az2kbFvBWk3Ln2chRyDx7XPmWwE8e3Q&usqp=CAU"
+                alt="">Alumni</div>
+    </div>
+    <footer>
+      
+        <div id="f2">
+            <div id="f1">
+                <ul>
+                    <li>DISCLAIMER</li>
+                    <li>SITEMAP</li>
+                    <li style="float:right; padding-right: 80px;">NIRF 2020</li>
+                </ul>
+            </div>
+
+            <div id="f3">
+            © 2021 ALL RIGHTS RESERVED HBTU, KANPUR
+            <p>
+
+                
+                CONTENT ON THIS WEBSITE IS PUBLISHED AND MANAGED BY HBTU, KANPUR.
+            </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 3seconds
+        }
+        </script>
+        
+        
+</body>
+
+</html>
